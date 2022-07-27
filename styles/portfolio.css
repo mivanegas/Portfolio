@@ -56,3 +56,9 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.headshot {
+  border-radius: 50%;
+  height: 10%;
+  width: 20%;
+}
