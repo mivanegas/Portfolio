@@ -93,8 +93,10 @@ footer {
 
 .fa-instagram,
 .fa-linkedin,
-.fa-envelope {
+.fa-envelope,
+.fa-github-alt {
   padding: 15px 25px;
+  color: #272343;
 }
 
 img {
