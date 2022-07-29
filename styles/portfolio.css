@@ -47,11 +47,20 @@ footer {
   padding: 140px 20px;
 }
 
-.about-section {
+.content-container {
   padding: 140px 20px;
 }
 
-.about-section-content {
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content {
   margin: 35px;
 }
 
@@ -65,16 +74,6 @@ footer {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
-}
-
-.about-section h1 {
-  font-size: 64px;
-  line-height: 80px;
-}
-
-.about-section h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
 }
 
 .btn-branding {
