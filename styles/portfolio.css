@@ -48,7 +48,7 @@ footer {
 }
 
 .content-container {
-  padding: 140px 20px;
+  padding: 80px 20px;
 }
 
 .content-container h1 {
@@ -140,6 +140,13 @@ footer {
   font-size: 40px;
   text-align: center;
   color: #272343;
+}
+
+.skill-icons {
+  color: #272343;
+  font-size: 20px;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 .fa-instagram,
