@@ -212,4 +212,17 @@ nav a:hover {
     text-align: center;
     padding: 5px;
   }
+  .index-weather {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .index-bee {
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .featured {
+    line-height: 0em;
+  }
 }
