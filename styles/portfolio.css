@@ -210,7 +210,8 @@ nav a:hover {
 
   .content {
     text-align: center;
-    padding: 5px;
+    padding: 0 5px 0;
+    margin: 10px;
   }
   .index-weather {
     margin-top: 0;
@@ -224,5 +225,9 @@ nav a:hover {
 
   .featured {
     line-height: 0em;
+  }
+
+  .content-container {
+    padding-top: 0;
   }
 }
