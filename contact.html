@@ -29,9 +29,24 @@
       src="https://kit.fontawesome.com/457602dfdb.js"
       crossorigin="anonymous"
     ></script>
+    <style>
+      body {
+        background-color: #bae8e8;
+      }
+
+      nav {
+        background-color: white;
+        width: 100%;
+      }
+      .nav-container {
+        background-color: white;
+        margin: 0;
+        max-width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="nav-container container">
       <nav class="d-flex justify-content-between">
         <h3><a href="/index.html">👩🏽‍💻</a></h3>
         <ul>
@@ -47,25 +62,33 @@
     <div class="contact-container">
       <h1 class="mb-3">Let's get in touch!</h1>
       <h4 class="here mb-3">Here are the fews ways to contact me</h4>
-      <div class="row">
-        <div class="col-4">
-          <a href="mailto:maria.vanegas@my.maryvillecollege.edu" target="_blank"
-            ><i class="fa-regular fa-envelope"></i>Words</a
-          >
-        </div>
-        <div class="col-4">
-          <a
-            href="https://www.linkedin.com/in/maria-isabel-vanegas-6b394514b/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i>Work</a
-          >
-        </div>
-        <div class="col-4">
-          <a href="https://github.com/mivanegas" target="_blank"
-            ><i class="fa-brands fa-github-alt"></i>Code</a
-          >
-        </div>
-        <div class="row">
+      <img
+        src="/images/email.gif"
+        alt="Cute email GIF"
+        class="img-fluid mt-3 mb-4"
+        width="350"
+      />
+      <div class="container d-flex justify-content-center">
+        <div class="row mb-3">
+          <div class="col-4">
+            <a
+              href="mailto:maria.vanegas@my.maryvillecollege.edu"
+              target="_blank"
+              ><i class="fa-regular fa-envelope"></i>Words</a
+            >
+          </div>
+          <div class="col-4">
+            <a
+              href="https://www.linkedin.com/in/maria-isabel-vanegas-6b394514b/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i>Work</a
+            >
+          </div>
+          <div class="col-4">
+            <a href="https://github.com/mivanegas" target="_blank"
+              ><i class="fa-brands fa-github-alt"></i>Code</a
+            >
+          </div>
           <div class="col-6">
             <a
               href="https://www.instagram.com/mariaisabelvanegas/"
@@ -79,9 +102,13 @@
               target="_blank"
               ><i class="fa-brands fa-instagram"></i>Art</a
             >
+            <!--Col div-->
           </div>
+          <!--container div-->
         </div>
+        <!--row div-->
       </div>
+      <!--Contant-container div-->
     </div>
   </body>
 </html>
