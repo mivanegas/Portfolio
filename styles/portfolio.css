@@ -48,7 +48,7 @@ footer {
 }
 
 .content-container {
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
 
 .content-container h1 {
@@ -104,8 +104,9 @@ footer {
 
 .contact-container {
   background-color: #bae8e8;
+  background-size: 100%;
   text-align: center;
-  padding: 100px;
+  padding: 30px 25px 100px;
   margin: auto;
 }
 .contact-container i {
@@ -137,7 +138,7 @@ footer {
 }
 
 .icons {
-  font-size: 40px;
+  font-size: 38px;
   text-align: center;
   color: #272343;
 }
@@ -227,5 +228,18 @@ nav a:hover {
 
   .content-container {
     padding-top: 0;
+  }
+
+  .content-container h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .btn-branding-outline {
+    margin-bottom: 18px;
+  }
+
+  .project-description h2 {
+    margin-top: 0;
   }
 }
