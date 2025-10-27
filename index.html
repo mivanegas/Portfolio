@@ -35,7 +35,33 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+    <!------ Navbar Section ------>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand m-2 fs-3" href="/">👩🏽‍💻</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto m-2">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Previous Navbar Section -->
+    <!-- <div class="container">
       <nav class="d-flex justify-content-between">
         <h3><a href="/" title="Homepage">👩🏽‍💻</a></h3>
 
@@ -48,24 +74,23 @@
           <li><a href="/contact.html">Contact</a></li>
         </ul>
       </nav>
-    </div>
+    </div> -->
 
     <div class="hero">
       <p>👋🏼 Hello, I am</p>
       <h1>Maria Isabel Vanegas</h1>
       <div>
         <img
-          src="images/Headshot.jpeg"
-          class="mt-2 img-fluid headshot"
-          alt="My headshot"
+          src="images/profilepic.jpg"
+          class="m-4 img-fluid headshot"
+          alt="My profile picture"
         />
       </div>
-      <h2 class="mt-2 mb-4 text-center">
-        -- Front-end developer based in Berkeley, CA --
-      </h2>
-      <div>
-        <a href="contact.html#here" class="btn btn-branding">Contact Me</a>
-      </div>
+      <h4 class="m-4 text-center">
+        Information Systems | Frontend Development | Data Analytics | Technical
+        Product Management
+      </h4>
+      <a href="contact.html#here" class="btn btn-branding mt-3">Contact Me</a>
     </div>
     <p class="text-center m-5 featured">Featured Projects</p>
     <div class="container">
@@ -76,8 +101,8 @@
             alt="Photo of Weather Application"
             class="img-fluid"
           />
-          <!--Img Col div-->
         </div>
+        <!-- Featured Projects -->
         <div class="col">
           <div class="project-description">
             <h2 class="mb-3">Weather Application</h2>
@@ -91,11 +116,8 @@
               target="_blank"
               >View project</a
             >
-            <!--Content Col div-->
           </div>
-          <!--Project-description div-->
         </div>
-        <!--Row div-->
       </div>
       <div class="row mb-4">
         <div class="col">
@@ -110,9 +132,7 @@
               target="_blank"
               >View project</a
             >
-            <!--Project-description div-->
           </div>
-          <!--Content Col div-->
         </div>
         <div class="col-lg-6 index-bee">
           <img
@@ -121,12 +141,10 @@
             class="img-fluid"
             width="420"
           />
-          <!--Img Col div-->
         </div>
-        <!--Row div-->
       </div>
-      <!--Container div-->
     </div>
+
     <footer>
       <div class="icons">
         <a href="mailto:maria.vanegas@my.maryvillecollege.edu" target="_blank"

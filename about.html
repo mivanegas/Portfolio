@@ -32,7 +32,33 @@
     <style></style>
   </head>
   <body>
-    <div class="container">
+    <!------ Navbar Section ------>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand m-2 fs-3" href="/">👩🏽‍💻</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto m-2">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+            <a class="nav-link active" href="/about.html">About</a>
+            <a class="nav-link" href="/work.html">Work</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Previous Navbar Section -->
+    <!-- <div class="container">
       <nav class="d-flex justify-content-between">
         <h3><a href="/index.html" title="Homepage">👩🏽‍💻</a></h3>
         <ul>
@@ -44,51 +70,60 @@
           <li><a href="/contact.html">Contact</a></li>
         </ul>
       </nav>
-      <!--Nav container div-->
-    </div>
+    </div> -->
+
+    <!-- Main -->
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
             <h1>Hi, I'm Maria Isabel</h1>
             <h2>she/her/ella</h2>
-            <h2 class="mt-4">Front-end developer based in Berkeley, CA</h2>
+            <h2 class="mt-4">Based in Berkeley, CA</h2>
             <p class="mt-4 mb-4">
               My story begins in Guatemala, the country where I was born. At the
               age of six, I immigrated to the U.S with my family. Since then I
               have called a few places my home: Colorado, Tennessee, and
               California. In 2020, I graduated from Maryville College with a
-              Bachelor of Arts in Political Science and International Studies. I
-              currently work for FWD.us, a bipartisan nonprofit aiming to
-              improve the harmful immigration and criminal justice systems in
-              the U.S. Front-end development is a new interest of mine and this
-              website is a product of that. So please stay a while and check out
-              the projects I've worked on.
+              Bachelor of Arts in Political Science and International Studies.
             </p>
+            <p class="mt-4 mb-4">
+              At the core of my work is a passion for using technology to drive
+              meaningful social change. Innovative systems, data-driven
+              insights, and collaborative learning can empower organizations to
+              operate more effectively and foster equity in their communities. I
+              bring expertise in front-end development, data analytics, and
+              information systems management, with experience in automation, CRM
+              administration, data warehousing, and content management. Skilled
+              in Salesforce, Pardot, Looker Studio, SQL, and web technologies
+              like HTML, CSS, and JavaScript, I’ve led initiatives that improved
+              data infrastructures, streamlined workflows, and enhanced digital
+              engagement. I’m eager to continue building technology that
+              supports mission-driven work and helps organizations translate
+              complex data into actionable impact.
+            </p>
+
             <a href="/work.html" class="btn btn-branding">View my projects</a>
-            <!--Col div-->
           </div>
-          <!--Row div-->
         </div>
         <div class="col-lg-6 text-center">
           <img
             src="images/sfphoto.jpg"
-            class="img-fluid golden-gate"
+            class="img-fluid golden-gate mt-3 mb-3"
             alt="Me in front of the Golden Gate Bridge"
+            width="400"
           />
           <img
             src="images/familypic.jpg"
-            class="img-fluid mt-4 mb-5"
+            class="img-fluid mt-4"
             alt="My family and I recreating a picture from my childhood"
             width="400"
             id="family"
           />
-          <!--Content div-->
         </div>
-        <!--Col div-->
       </div>
-      <!--Content-container div-->
     </div>
+
     <footer class="fixed-bottom">
       <div class="icons">
         <a href="https://www.instagram.com/mariaisabelvanegas/" target="_blank"

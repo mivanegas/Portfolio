@@ -187,6 +187,17 @@ nav a:hover {
   transition: all 120ms ease-in-out;
 }
 
+/* New */
+.nav-link {
+  color: #272343;
+}
+
+.navbar .nav-link.active,
+.nnavbar .nav-link:hover {
+  color: #7dc1c1;
+  transition: all 120ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
