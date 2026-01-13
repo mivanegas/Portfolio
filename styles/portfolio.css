@@ -187,6 +187,10 @@ nav a:hover {
   transition: all 120ms ease-in-out;
 }
 
+.index-page {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
 /* New */
 .nav-link {
   color: #272343;
